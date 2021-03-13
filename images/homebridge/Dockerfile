@@ -1,15 +1,13 @@
 FROM   oznu/homebridge:latest
 
 ENV \
-    PGID=1000 \
-    PUID=1000 \
     HOMEBRIDGE_CONFIG_UI=1
 
-RUN \
-    npm install -g \
-    homebridge-config-ui-x@latest \
-    homebridge-nest@latest \
-    homebridge-tuya@latest
+#RUN \
+#    npm install -g \
+#    homebridge-config-ui-x@latest
+#    homebridge-nest@latest \
+#    homebridge-tuya@latest
 
 #
 # Default skwr config
